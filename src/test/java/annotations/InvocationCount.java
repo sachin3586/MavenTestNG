@@ -29,7 +29,7 @@ public class InvocationCount {
         driver.close();
     }
 
-    @Test(invocationCount = 3,invocationTimeOut = 2) // invocationTimeout refers in miliSeconds
+    @Test(invocationCount = 2,invocationTimeOut = 2) // invocationTimeout refers in miliSeconds
     public void login() {
         System.out.println("login successfully");
     }
