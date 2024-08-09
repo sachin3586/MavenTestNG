@@ -7,6 +7,7 @@ public class NormalDataProviderExample {
 
     @DataProvider(name = "data-provider")
     public Object[][] dpMethod() {
+
         return new Object[][] {
                 { "AUDI" },
                 { "TATA" },

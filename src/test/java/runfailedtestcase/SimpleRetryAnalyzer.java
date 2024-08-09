@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SimpleRetryAnalyzer implements IRetryAnalyzer {
 
     private int count = 0;
-    private static final int MAX_RETRIES = 5; // Set the maximum number of retries
+    private static final int MAX_RETRIES = 7 ; // Set the maximum number of retries
 
     @Override
     public boolean retry(ITestResult result) {
