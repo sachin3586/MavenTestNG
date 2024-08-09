@@ -21,6 +21,7 @@ public class DependsOnMethod {
     @Test()
     public void test() {
 
+        Assert.fail();
         System.out.println("This is test method");
     }
 

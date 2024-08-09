@@ -8,20 +8,23 @@ import org.testng.annotations.Test;
 public class EnabledFalse {
 
     @BeforeMethod
-    public void beforeMethod(){
+    public void beforeMethod() {
         System.out.println("Before method");
     }
+
     @AfterMethod
-    public void afterMethod(){
+    public void afterMethod() {
         System.out.println("After method");
     }
-    @Test
-    public void test(){
-        Assert.fail();
+
+    @Test(invocationCount =3)
+    public void test() {
+       // Assert.fail();
         System.out.println("This is test method");
     }
-    @Test (enabled = false)
-    public void test1(){
+
+    @Test(enabled = false)
+    public void test1() {
         System.out.println("This is test1 method");
     }
 }
