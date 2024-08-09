@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/annotations/BeforeAfterClass.java"><classes><class name="annotations.BeforeAfterClass"><methods><include name="test"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/annotations/BeforeAfterMethod.java"><classes><class name="annotations.BeforeAfterMethod"><methods><include name="login"/><include name="homePage"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/annotations/DependsOnMethod.java"><classes><class name="annotations.DependsOnMethod"><methods><include name="test"/><include name="test1"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/annotations/EnabledFalse.java"><classes><class name="annotations.EnabledFalse"><methods><include name="test"/><include name="test1"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/annotations/InvocationCount.java"><classes><class name="annotations.InvocationCount"><methods><include name="login"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/annotations/PriorityInTestNG.java"><classes><class name="annotations.PriorityInTestNG"><methods><include name="test"/><include name="test1"/><include name="test2"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserName" value="edge"></parameter>
+    <parameter name="carName" value="Hyundai Aura"></parameter>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/parameter/ParameterizationExample1.java">
+        <classes>
+            <class name="parameter.ParameterizationExample1">
+                <methods>
+                    <include name="parameterExample2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
