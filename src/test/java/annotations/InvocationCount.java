@@ -20,8 +20,10 @@ public class InvocationCount {
         driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        // WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
-        //  wait.until(ExpectedConditions.elementToBeClickable(element));
+        /* WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
+         wait.until(ExpectedConditions.elementToBeClickable(element));
+
+         */
     }
 
     @AfterMethod

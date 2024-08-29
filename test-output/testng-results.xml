@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-06T14:52:57 IST" name="Default Suite" finished-at="2024-07-06T14:52:57 IST" duration-ms="425">
+  <suite started-at="2024-08-27T11:56:59 IST" name="Default Suite" finished-at="2024-08-27T11:56:59 IST" duration-ms="349">
     <groups>
       <group name="smoke">
-        <method signature="DependsOnGroupExample.test1()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@7ea9e1e2]" name="test1" class="annotations.dependsongroup.DependsOnGroupExample"/>
+        <method signature="DependsOnGroupExample.test1()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@483f6d77]" name="test1" class="annotations.dependsongroup.DependsOnGroupExample"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-07-06T14:52:57 IST" name="MavenTestNG" finished-at="2024-07-06T14:52:57 IST" duration-ms="425">
+    <test started-at="2024-08-27T11:56:59 IST" name="MavenTestNG" finished-at="2024-08-27T11:56:59 IST" duration-ms="349">
       <class name="annotations.dependsongroup.DependsOnGroupExample">
-        <test-method signature="test1()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@7ea9e1e2]" started-at="2024-07-06T14:52:57 IST" name="test1" finished-at="2024-07-06T14:52:57 IST" duration-ms="82" status="PASS">
+        <test-method signature="test1()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@483f6d77]" started-at="2024-08-27T11:56:59 IST" name="test1" finished-at="2024-08-27T11:56:59 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@7ea9e1e2]" started-at="2024-07-06T14:52:57 IST" name="test2" depends-on-groups="smoke" finished-at="2024-07-06T14:52:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="test2()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@483f6d77]" started-at="2024-08-27T11:56:59 IST" name="test2" depends-on-groups="smoke" finished-at="2024-08-27T11:56:59 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@7ea9e1e2]" started-at="2024-07-06T14:52:57 IST" name="test3" finished-at="2024-07-06T14:52:57 IST" duration-ms="6" status="PASS">
+        <test-method signature="test3()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@483f6d77]" started-at="2024-08-27T11:56:59 IST" name="test3" finished-at="2024-08-27T11:56:59 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@7ea9e1e2]" started-at="2024-07-06T14:52:57 IST" name="test4" finished-at="2024-07-06T14:52:57 IST" duration-ms="2" status="PASS">
+        <test-method signature="test4()[pri:0, instance:annotations.dependsongroup.DependsOnGroupExample@483f6d77]" started-at="2024-08-27T11:56:59 IST" name="test4" finished-at="2024-08-27T11:56:59 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
