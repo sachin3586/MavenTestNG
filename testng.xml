@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <parameter name="browserName" value="edge"></parameter>
-    <parameter name="carName" value="Hyundai Aura"></parameter>
-
+    <parameter name="mobileName" value="SamsungMobie"></parameter>
     <test verbose="2" preserve-order="true"
           name="C:/Users/lenovo/IdeaProjects/MavenTestNG/src/test/java/parameter/ParameterizationExample1.java">
         <classes>
             <class name="parameter.ParameterizationExample1">
                 <methods>
-                    <include name="parameterExample2"/>
+                    <include name="show"/>
                 </methods>
             </class>
         </classes>

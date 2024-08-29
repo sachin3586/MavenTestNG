@@ -1,5 +1,7 @@
 package annotations;
 
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
+import io.github.bonigarcia.wdm.managers.InternetExplorerDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,7 +18,8 @@ public class BeforeAfterMethod {
     @BeforeMethod
     public void setup(){
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\lenovo\\Desktop\\Testing\\Driver\\ChromeDriver\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\Users\\lenovo\\Desktop\\Testing\\Driver\\ChromeDriver\\chromedriver.exe");
+        ChromeDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.get("https://www.nmdc.co.in");
         driver.manage().window().maximize();

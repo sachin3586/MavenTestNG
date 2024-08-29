@@ -24,8 +24,6 @@ public class BrowserWithParameter {
             driver=new EdgeDriver();
             driver.get("https://www.google.com");
             driver.manage().window().maximize();
-
-
         }
 
     }
